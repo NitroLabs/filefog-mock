@@ -42,7 +42,7 @@ to the cloud service. Options include:
 - options.maxResults - The maximum number of files returned
 
 ```javascript
-var google = filefog.client("mock", {
+var mock = filefog.client("mock", {
     access_token: '...',
     refresh_token: '...'
 })
