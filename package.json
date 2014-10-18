@@ -1,46 +1,46 @@
 {
-  "name": "filefog-mock",
-  "version": "0.0.4",
-  "description": "mock provider for filefog",
-  "author": {
-    "name": "Max Ferguson",
-    "email": "maxkferg@gmail.com"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/filefog/filefog-google.git"
-  },
-  "homepage": "https://github.com/NitroLabs/filefog-mock/",
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "^1.20.0",
-    "should": "^4.0.0",
-    "sinon": "^1.10.1",
-    "filefog-provider-tests": "*"
-  },
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {
-    "googleapis": "^0.7.0",
-    "node.extend": "^1.0.10",
-    "q": "^1.0.1",
-    "request": "^2.36.0",
-    "winston": "^0.7.3"
-  },
-  "keywords": [
-    "orm",
-    "filefog",
-    "provider",
-    "wrapper",
-    "google drive",
-    "drive",
-  ],
-  "readme": "# FileFog Provider\n\n[![wercker status](https://app.wercker.com/status/ef333f2ec4b0e2f37d93169cf1331423/s \"wercker status\")](https://app.wercker.com/project/bykey/ef333f2ec4b0e2f37d93169cf1331423)[![Dependency Status](https://gemnasium.com/filefog/filefog-google.png)](https://gemnasium.com/filefog/filefog-google)\n\nA [Filefog](https://github.com/filefog/filefog) adapter for Google Drive. May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.\n\n## Install\n\nInstall is through NPM.\n\n```bash\n$ npm install filefog-google --save\n```\n\n## Configuration\n\nThe following config options are required:\n\n```javascript\nconfig: {\n    client_key : '',\n    client_secret : '',\n    client_scope : \"https://www.googleapis.com/auth/drive\",\n    redirect_url : 'http://localhost:3000/service/callback/google'\n};\n```\n\n## Testing\n\nTest are written with mocha. Integration tests are handled by the [filefog-provider-tests](https://github.com/filefog/filefog-provider-tests) project, which tests provider methods against the latest FileFog API.\n\nTo run tests:\n\n```bash\n$ npm test\n```\n\n## About FileFog\n\nFileFog is a cloud agnostic file API.  It provides a uniform API for accessing stuff from different kinds of cloud providers and file systems.  That means you write the same code to manipulate files, whether they live in google drive, dropbox, box.net, or your local file system.\n\nTo learn more visit the project on GitHub at [FileFog](https://github.com/filefog/filefog).",
-  "readmeFilename": "README.md",
+    "name": "filefog-mock",
+    "version": "0.0.4",
+    "description": "mock provider for filefog",
+    "author": {
+        "name": "Max Ferguson",
+        "email": "maxkferg@gmail.com"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/filefog/filefog-google.git"
+    },
+    "homepage": "https://github.com/NitroLabs/filefog-mock/",
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "^1.20.0",
+        "should": "^4.0.0",
+        "sinon": "^1.10.1",
+        "filefog-provider-tests": "*"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "googleapis": "^0.7.0",
+        "node.extend": "^1.0.10",
+        "q": "^1.0.1",
+        "request": "^2.36.0",
+        "winston": "^0.7.3"
+    },
+    "keywords": [
+        "orm",
+        "filefog",
+        "provider",
+        "wrapper",
+        "google drive",
+        "drive"
+    ],
+    "readme": "# FileFog Provider\n\n[![wercker status](https://app.wercker.com/status/ef333f2ec4b0e2f37d93169cf1331423/s \"wercker status\")](https://app.wercker.com/project/bykey/ef333f2ec4b0e2f37d93169cf1331423)[![Dependency Status](https://gemnasium.com/filefog/filefog-google.png)](https://gemnasium.com/filefog/filefog-google)\n\nA [Filefog](https://github.com/filefog/filefog) adapter for Google Drive. May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.\n\n## Install\n\nInstall is through NPM.\n\n```bash\n$ npm install filefog-google --save\n```\n\n## Configuration\n\nThe following config options are required:\n\n```javascript\nconfig: {\n    client_key : '',\n    client_secret : '',\n    client_scope : \"https://www.googleapis.com/auth/drive\",\n    redirect_url : 'http://localhost:3000/service/callback/google'\n};\n```\n\n## Testing\n\nTest are written with mocha. Integration tests are handled by the [filefog-provider-tests](https://github.com/filefog/filefog-provider-tests) project, which tests provider methods against the latest FileFog API.\n\nTo run tests:\n\n```bash\n$ npm test\n```\n\n## About FileFog\n\nFileFog is a cloud agnostic file API.  It provides a uniform API for accessing stuff from different kinds of cloud providers and file systems.  That means you write the same code to manipulate files, whether they live in google drive, dropbox, box.net, or your local file system.\n\nTo learn more visit the project on GitHub at [FileFog](https://github.com/filefog/filefog).",
+    "readmeFilename": "README.md"
 }
